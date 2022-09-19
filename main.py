@@ -99,7 +99,88 @@ print("1")
 print(" ")
 print("START!")
 
-#sarting exam qquestions
+#exam question 1-10
+score = 0
+  
 print(" ")
 print("Question #1")
 print("")
+answer1 = input("Fill in the blank: 'Baby baby ___ my Sun and Moon.' \nA.you're \nB.your \nC.U'r \nD.ur \nE.you \n")
+if answer1 == "A" or answer1 == "you're" or answer1 == "a":
+  score += 1
+
+else:
+  print(" ")
+print(" ")
+print("Question #2")
+print(" ")
+answer2 = input("Why is a boxing ring called a ring even though it is square? \nA. The name 'ring' is a relic from when contests were fought in a roughly drawn circle on the ground. The name ring continued with the London Prize Ring Rules in 1743, which specified a small circle in the centre of the fight area where the boxers met at the start of each round. \nB. Because it's a box. \nC. I don't know \n")
+if answer2 == "A" or answer2 == "a":
+  score += 1
+
+else:
+  print(" ")
+print(" ")
+print("Question #3")
+print(" ")
+answer3 = input("1 + 1?\n")
+if answer3 == "magellan" or answer3 == "Magellan":
+   score += 1
+
+else:
+  print(" ")
+print(' ')
+print("Question #4")
+answer4 = input("While walking, you saw your classmate's having problems, as a good student what should you do? \nA. Hangout \nB. You know... \nC. Walk like nothing happened. \n")
+if answer4 == "A" or answer4 == "a" or answer4 == "C" or answer4 == "c":
+  score += 1
+
+else:
+  print("why???")
+print(" ")
+print("Question #5")
+answer5 = input("Where was the Philippine hero, Dr. Jose Rizal got shot? \nA. Bagumbayan. \nB. At the back. \nC. in The Philippines. \n")
+if answer5 == "B" or answer5 == "b":
+  score += 1
+
+else:
+  print(" ")
+print(" ")
+print("Question #6")
+answer6 = input("Who killed Lapu-Lapu? \nA. Magellan. \nB. Aldous. \nC. None.\n")
+if answer6 == "B" or answer6 == "b":
+    score += 1
+
+else:
+  print(" ")
+print(" ")
+print("Question #7")
+answer7 = input("why is the blackboared green?")
+score += 1
+
+print(" ")
+print("Question #8")
+answer8 = input("what's the full name of the philippines national hero? \nA. José Protacio Rizal Mercado y Alonso Realonda. \nB. Jose Rizal. \nC. J Riz. \n")
+if answer8 == "A" or answer8 == "a":
+  score += 1
+
+else:
+  print(" ")
+print(" ")
+print("Question #9")
+answer9 = input("what is orange? \nA. A colour. \nB. A kind of fruit.")
+score += 1
+
+print(" ")
+print("Question #10")
+answer10 = input("Why did you take this entrance exam? (requires 100 word essay)\n")
+score += 1
+
+#scoring
+if score <= 5:
+  print("Your total score is {} out of 10.".format(score))
+  print("You failed. You need to retake an exam again.")
+
+if score >= 1:
+  print("Your total score is {} out of 10.".format(score))
+  print("Congratulations! you passed!")
