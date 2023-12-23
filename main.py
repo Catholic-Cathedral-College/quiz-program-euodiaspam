@@ -183,4 +183,4 @@ if score <= 5:
 
 if score >= 1:
   print("Your total score is {} out of 10.".format(score))
-  print("Congratulations! you passed!")
+  print("finally! you passed!")
